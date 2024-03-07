@@ -3,13 +3,15 @@
     margin: 0px;
     box-sizing: border-box;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: black;
     color: white;
 }
 
+body{
+    background-image: url("./sky.jpg");
+}
 .name{
     height: 10vh;
-    background: 5px solid red;
+    /* background: 5px solid red; */
     /* border: 5px solid blue; */
     display: flex;
     align-items: center;
@@ -31,7 +33,7 @@
 } */
 
 .second{
-    border: 5px solid yellow;
+    /* border: 5px solid yellow; */
     border-radius: 5px;
     font-size: xx-large;
 }
@@ -55,20 +57,21 @@
     margin: 4px 2px;
     cursor: pointer;
 }
-button:hover{
+.button:hover{
     background-color: green;
 }
 .Main{
  display: flex;
  margin-top: 20px;
- border: 5px solid yellow;
+ /* border: 5px solid yellow; */
  height: 68vh;
+ 
 }
 
 .Main-Image{
-    width: 70rem;
+    width: 30rem;
     height: auto;
-    border: 5px solid red;
+    /* border: 5px solid red; */
     max-width: 100rem;
     max-height: auto;
     object-fit: contain;
@@ -76,3 +79,66 @@ button:hover{
 .Main-About{
     height: auto;
 }
+.Main-Image>img{
+    height: 420px;
+    width: 420px;
+    margin-right: 300px;
+}
+
+.Main-About{
+    color: green;
+    font-size: xx-large;
+    font-weight: bolder;
+    /* background-color: aqua; */
+    /* background: yellow; */
+}
+.Main-head{
+    color: rgb(5, 161, 252);
+   font-size:60px;
+}
+.Developer , .first-content{
+    color: green;
+    font-size: xx-large;
+    font-weight: bolder;
+}
+
+.Main-content-value{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: italic;
+    font-weight: bold;
+    width: 170px;
+    display: flex;
+}
+.Main-Content{
+    width: 1200px;
+    /* background-image: url("./sky.jpg"); */
+}
+
+.img-1{
+    background-image: url("./sky.jpg");
+    width: 1200px;
+    height: 432px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    /* border: 5px solid rgb(61, 0, 228); */
+}
+.Main-Content{
+    /* border: 5px solid red; */
+    align-items: center;
+}
+
+.outer-div {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+   
+  }
+  
+.inner-div {
+    display: inline-block;
+    margin: 0;
+    padding: 2px;
+    /* background-color: #8ebf42 */
+  }
