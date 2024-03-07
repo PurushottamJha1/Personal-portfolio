@@ -1,0 +1,78 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: black;
+    color: white;
+}
+
+.name{
+    height: 10vh;
+    background: 5px solid red;
+    /* border: 5px solid blue; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+    font-size: xx-large;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    /* background-color: red; */
+
+}
+
+.first{
+ /* border: 5px solid green; */
+ display: flex;
+ width: 50vw;
+ gap: 20px;
+}
+ /* justify-content: space-between;
+} */
+
+.second{
+    border: 5px solid yellow;
+    border-radius: 5px;
+    font-size: xx-large;
+}
+.head{
+    display: flex;
+   justify-content: space-between;
+}
+.Home , .About , .Skills , .Blog , .More , .second{
+    background: blue;
+    font-size: medium;
+    border-radius: 5px;
+}
+.button{
+    border: none;
+    color: white;
+    padding: 3px 4px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+button:hover{
+    background-color: green;
+}
+.Main{
+ display: flex;
+ margin-top: 20px;
+ border: 5px solid yellow;
+ height: 68vh;
+}
+
+.Main-Image{
+    width: 70rem;
+    height: auto;
+    border: 5px solid red;
+    max-width: 100rem;
+    max-height: auto;
+    object-fit: contain;
+}
+.Main-About{
+    height: auto;
+}
